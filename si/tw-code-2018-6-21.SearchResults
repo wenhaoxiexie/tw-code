@@ -1,0 +1,64 @@
+---- display_number Matches (65 in 8 files) ----
+App.build_log.htm (e:\project\tw-code-2018-6-21\application-sys\projects\uvision\demoapp\objects):..\..\..\src\Oled\src\Display_App.c(127): warning:  #177-D: variable "display_number"  was declared but never referenced
+App.build_log.htm (e:\project\tw-code-2018-6-21\application-sys\projects\uvision\demoapp\objects):  	 uint8_t display_number[1] = {0};
+App.txt (e:\project\tw-code-2018-6-21\application-sys\projects\uvision\demoapp\objects):0x0004dc9c  0x4        g_cur_keyvalue.display_number            int
+Display_App.c (e:\project\tw-code-2018-6-21\application-sys\src\oled\src):	 uint8_t display_number[1] = {0};
+Display_App.c (e:\project\tw-code-2018-6-21\application-sys\src\oled\src): 	//display_draw_bitmap_num(Display_buff,TempNum,&display_number[0],1,8,16,0,0);
+Main.c (e:\project\tw-code-2018-6-21\application-sys\app\demoapp):			if(g_cur_keyvalue.display_number == 2)
+Main.c (e:\project\tw-code-2018-6-21\application-sys\app\demoapp):				if(g_cur_keyvalue.display_number == 8)
+Main.c (e:\project\tw-code-2018-6-21\application-sys\app\demoapp):	else if((g_cur_keyvalue.IsKeyPress) && (g_cur_keyvalue.display_number !=12))
+Main.c (e:\project\tw-code-2018-6-21\application-sys\app\demoapp):		//g_cur_keyvalue.display_number = 0;		
+Main.c (e:\project\tw-code-2018-6-21\application-sys\app\demoapp):					g_cur_keyvalue.display_number = 0;
+Main.c (e:\project\tw-code-2018-6-21\application-sys\app\demoapp):				g_cur_keyvalue.display_number = 0;
+Main.c (e:\project\tw-code-2018-6-21\application-sys\app\demoapp):	if(g_cur_keyvalue.display_number == 10)
+Main.c (e:\project\tw-code-2018-6-21\application-sys\app\demoapp):				if(g_cur_keyvalue.display_number == 10)
+Main.c (e:\project\tw-code-2018-6-21\application-sys\app\demoapp):				else if(g_cur_keyvalue.display_number == 12)
+Main.c (e:\project\tw-code-2018-6-21\application-sys\app\demoapp):		g_cur_keyvalue.display_number = 0;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	g_cur_keyvalue.display_number = 0;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):		if(g_cur_keyvalue.display_number == 10)
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):			g_cur_keyvalue.display_number = 0;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):		if(g_cur_keyvalue.display_number == 10)
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):			g_cur_keyvalue.display_number = 0;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):		if(g_cur_keyvalue.display_number != 10)
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):		if(g_cur_keyvalue.display_number != 10)
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	num = g_cur_keyvalue.display_number;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	g_cur_keyvalue.display_number = 0;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	switch(g_cur_keyvalue.display_number)
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	g_cur_keyvalue.display_number = 0;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	switch(g_cur_keyvalue.display_number)
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	g_cur_keyvalue.display_number = 0;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):		switch(g_cur_keyvalue.display_number)
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):		if(g_cur_keyvalue.display_number == 12)
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):			g_cur_keyvalue.display_number = 0;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	g_cur_keyvalue.display_number = 0;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	switch(g_cur_keyvalue.display_number)
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	g_cur_keyvalue.display_number = 0;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	switch(g_cur_keyvalue.display_number)
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	g_cur_keyvalue.display_number = 0;
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	printf("MainMenu g_cur_keyvalue.display_number=%d \n",g_cur_keyvalue.display_number);
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	switch(g_cur_keyvalue.display_number)
+Menu.c (e:\project\tw-code-2018-6-21\application-sys\src\procedureoperate):	g_cur_keyvalue.display_number = 0;
+NV340D.c (e:\project\tw-code-2018-6-21\application-sys\src\nv340d):		if(g_cur_keyvalue.display_number == 10 	)
+StoreStruct.h (e:\project\tw-code-2018-6-21\application-sys\include\procedureoperate):int display_number;
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):	int display_number;
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):		//display_number = KeyTable[KeyEvent];
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):		display_number =  KeyTable[KeyNum];
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):          printf("1display_number = %d in Password_Input \n",display_number);
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):	   if(display_number == 11)
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):	   	    display_number = 0;
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):	   if(display_number <=10)
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):				display_characters[display_num] = display_number;
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):	       		if(display_number ==10)
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):	   else if(display_number == 12)
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):			//printf("g_cur_keyvalue.display_number=%d \n",g_cur_keyvalue.display_number);
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):	    //display_number = 0;
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):			if(g_cur_keyvalue.display_number == 10)
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):					g_cur_keyvalue.display_number = 0;
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):			if(g_cur_keyvalue.display_number == 10)
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):					g_cur_keyvalue.display_number = 0;
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):				if(g_cur_keyvalue.display_number == 10)
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):						g_cur_keyvalue.display_number = 0;
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):			g_cur_keyvalue.display_number = 0;
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):			if(g_cur_keyvalue.display_number == 10)
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):					g_cur_keyvalue.display_number = 0;
+Tsm12.c (e:\project\tw-code-2018-6-21\application-sys\src\tsm12):				g_cur_keyvalue.display_number = KeyTable[i];
