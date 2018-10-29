@@ -1,0 +1,27 @@
+---- Is_card_flag Matches (27 in 5 files) ----
+App.txt (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\projects\uvision\demoapp\objects):    1586  Is_card_flag               0x0004e1ac   Gb    2  Data  Hi   0x1
+App.txt (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\projects\uvision\demoapp\objects):0x0004e1ac  0x1        Is_card_flag                             uint8_t
+Efm8.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\efm8):extern uint8_t Is_card_flag;
+Efm8.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\efm8):	if(Is_card_flag == 1)
+Hal_uart.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\soc\hal):uint8_t Is_card_flag=0;
+Hal_uart.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\soc\hal):	if(Is_card_flag == 1)
+Hal_uart.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\soc\hal):			Is_card_flag = 0;
+Hal_uart.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\soc\hal):				if(Is_card_flag==1 )			
+Hal_uart.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\soc\hal):		Is_card_flag = 0;
+Hal_uart.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\soc\hal):	if(Is_card_flag == 1)
+Hal_uart.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\soc\hal):		Is_card_flag = 0;
+Hal_uart.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\soc\hal):			Is_card_flag = 1;
+Hal_uart.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\soc\hal):					Is_card_flag = 1;
+Hal_uart.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\soc\hal):				printf("uart_0_irq_hdle Is_card_flag= %d \n",Is_card_flag);
+Main.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\app\demoapp):extern  uint8_t Is_card_flag;
+Main.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\app\demoapp):	if(Is_card_flag == 1)
+Main.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\app\demoapp):		Is_card_flag = 0;
+Main.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\app\demoapp):		Is_card_flag = 0;
+Main.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\app\demoapp):			if(g_cur_keyvalue.IsKeyPress ||Is_card_flag == 1 || Dr_FPC1021_CheckFingerPresent()>0 || Get_Reset_Value()==1)
+Menu.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\procedureoperate):extern uint8_t Is_card_flag;
+Menu.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\procedureoperate):	Is_card_flag = 0;
+Menu.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\procedureoperate):		if(Is_card_flag==1 || g_cur_keyvalue.IsKeyPress==1 || (Dr_FPC1021_CheckFingerPresent()>0) )			
+Menu.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\procedureoperate):	if(Is_card_flag == 1)
+Menu.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\procedureoperate):		if(g_cur_keyvalue.IsKeyPress==1 || Is_card_flag==1 ||Dr_FPC1021_CheckFingerPresent()>0)
+Menu.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\procedureoperate):	if(Is_card_flag)
+Menu.c (e:\project\tw-code-2018-5-11\tw-code-2018-5-11\application-sys\src\procedureoperate):		Is_card_flag = 0;
